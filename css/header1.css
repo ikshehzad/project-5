@@ -1,0 +1,51 @@
+header{
+	background-color: #121B2A;
+	padding: 5px 0;
+
+}
+.wrapper{
+	overflow: hidden;
+	width: 80%;
+	margin:0 auto;
+
+}
+.logo{
+	width: 17%;
+	float:left;
+
+}
+.logo img{
+	width: 100%;
+
+}
+
+.menu{
+	width:70%;
+	float: right;
+
+}
+.menu ul{
+	float: right;
+	margin-top:30px;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+	
+}
+.menu ul li a{
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 20px 20px;
+	display: block;
+	transition: .5s;
+	
+}
+.menu ul li a:hover{
+	color: #0D85B7;
+}
+.menu ul li:last-child a{
+	padding-right:0;  
+}
